@@ -1,0 +1,188 @@
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+a {
+    padding: 20px;
+    background: black;
+    border-radius: 16px;
+    color: white;
+    text-decoration: white;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 50px;
+    
+}
+
+.links {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.inline-content {
+    display: flex;
+    margin-top: 800px;
+    justify-content: center;
+}
+
+.box-content {
+    box-sizing: content-box;
+    width: 300px;
+    display: inline-block;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;    
+}
+
+.block-content {
+    display: block;
+    text-align: center;
+}
+.box-border {
+    box-sizing: border-box;
+    width: 300px;
+    
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.flex-ex {
+    display: flex;
+    background: peachpuff;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.small-text-1 {
+    float: left;
+    border: 3px solid black;
+    width: 200px;
+    margin: 20px;
+}
+
+.small-text-2 {
+    float: left;
+    border: 3px solid black;
+    width: 200px;
+    margin: 20px;
+}
+.big-text {
+    clear: both;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+b {
+    text-transform: uppercase;
+    clear: both;
+}
+
+.over-ex {
+    display: flex;
+    flex: row;
+}
+
+.over-vis {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.over-hid {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.over-scroll {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+    margin: 20px;
+}
+
+.over-auto {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    margin: 20px;
+}
+.pos-ex-abs {
+    /* цей маржин суто для демонстраціх оверфлоу з попереднього блоку */
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    background: green;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+}
+
+.blue {
+    background: blue;
+        width: 300px;
+        height: 100px;
+        margin: 20px;
+        position: absolute;
+        left: 150px;
+        color: wheat;
+        font-size: 24px;
+}
+
+.red {
+    background: red;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+}
+
+.pos-ex-sticky {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background: green;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+
+
+.fixed {
+    width: 200px;
+    height: 100px;
+    background: pink;
+    position: fixed;
+    top: 400px;
+    left: 1000px;
+}
